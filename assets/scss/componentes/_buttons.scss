@@ -1,0 +1,18 @@
+.btn{
+    background-color: $white;
+    border: solid $smoky-black;
+    padding: 0.5em 1.5em;
+
+    border-width: 1px;
+    border-radius: 0px;
+    font-weight: $weight-bold;
+    &:hover{
+        border: solid $light-gray;
+        border-width: 1px;
+    }
+    &:focus{
+        border: solid $light-gray;
+        border-width: 1px;
+        color: $light-gray;
+    }
+}

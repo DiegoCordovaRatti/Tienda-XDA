@@ -1,0 +1,14 @@
+.hero-section {
+    height: 40vh;
+    .hero-section__container {
+        background-image: url('../../assets/img/imagen1.png');
+        background-size: cover;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .hero-section{
+        height: 100vh;
+    }
+}

@@ -1,0 +1,24 @@
+.navbar{
+    height:70px;
+    background-color: $white;
+    .navbar__container {
+        background-color: $white;
+        height: 100%;
+        .navbar__logo{
+            height: 70px;
+            width: 70px;
+            font-family: $old-standard-tt;
+            font-weight: $weight-bold;
+        }
+        
+    }
+}
+
+.navbar__list{
+    background-color: $white;
+    .navbar__link{
+        margin: 0 1em;
+        color: $smoky-black;
+        font-weight: $weight-bold;
+    }
+}
